@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  codepath-flix
+//  codepath-flix-part1
 //
-//  Created by Ethan Cooper on 9/12/22.
+//  Created by Ethan Cooper on 9/6/22.
 //
 
 import UIKit
@@ -10,7 +10,7 @@ import UIKit
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
+    
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.

@@ -1,8 +1,8 @@
 //
 //  SceneDelegate.swift
-//  codepath-flix
+//  codepath-flix-part1
 //
-//  Created by Ethan Cooper on 9/12/22.
+//  Created by Ethan Cooper on 9/6/22.
 //
 
 import UIKit
