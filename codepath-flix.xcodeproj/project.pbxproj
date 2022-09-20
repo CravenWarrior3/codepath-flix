@@ -18,6 +18,9 @@
 		AA2979D028D015E1002DA34F /* codepath_flixUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA2979CF28D015E1002DA34F /* codepath_flixUITests.swift */; };
 		AA2979D228D015E1002DA34F /* codepath_flixUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA2979D128D015E1002DA34F /* codepath_flixUITestsLaunchTests.swift */; };
 		AA2979DF28D01666002DA34F /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA2979DE28D01666002DA34F /* MovieCell.swift */; };
+		AA5A30BE28D95238000A1D58 /* MovieGridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5A30BD28D95238000A1D58 /* MovieGridViewController.swift */; };
+		AA5A30C228D9609A000A1D58 /* MovieGridCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5A30C128D9609A000A1D58 /* MovieGridCell.swift */; };
+		AAD2792528D171EB00C74324 /* MovieDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD2792428D171EB00C74324 /* MovieDetailsViewController.swift */; };
 		BDD3F441CCD601EEE7961795 /* Pods_codepath_flix.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B77831AD36C75A3FA53E724 /* Pods_codepath_flix.framework */; };
 		DC4DD098BBC092723C59D0AA /* Pods_codepath_flixTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E958C8E88AFBF0C1DC8CBD9C /* Pods_codepath_flixTests.framework */; };
 /* End PBXBuildFile section */
@@ -60,6 +63,9 @@
 		AA2979CF28D015E1002DA34F /* codepath_flixUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = codepath_flixUITests.swift; sourceTree = "<group>"; };
 		AA2979D128D015E1002DA34F /* codepath_flixUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = codepath_flixUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		AA2979DE28D01666002DA34F /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
+		AA5A30BD28D95238000A1D58 /* MovieGridViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieGridViewController.swift; sourceTree = "<group>"; };
+		AA5A30C128D9609A000A1D58 /* MovieGridCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieGridCell.swift; sourceTree = "<group>"; };
+		AAD2792428D171EB00C74324 /* MovieDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailsViewController.swift; sourceTree = "<group>"; };
 		D815EB4F823225C4D0B8ACDB /* Pods_codepath_flix_codepath_flixUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_codepath_flix_codepath_flixUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E958C8E88AFBF0C1DC8CBD9C /* Pods_codepath_flixTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_codepath_flixTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4CC3688F0B2912AA1DCF08E /* Pods-codepath-flix.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-codepath-flix.release.xcconfig"; path = "Target Support Files/Pods-codepath-flix/Pods-codepath-flix.release.xcconfig"; sourceTree = "<group>"; };
@@ -139,6 +145,9 @@
 				AA2979B928D015E1002DA34F /* LaunchScreen.storyboard */,
 				AA2979BC28D015E1002DA34F /* Info.plist */,
 				AA2979DE28D01666002DA34F /* MovieCell.swift */,
+				AAD2792428D171EB00C74324 /* MovieDetailsViewController.swift */,
+				AA5A30BD28D95238000A1D58 /* MovieGridViewController.swift */,
+				AA5A30C128D9609A000A1D58 /* MovieGridCell.swift */,
 			);
 			path = "codepath-flix";
 			sourceTree = "<group>";
@@ -409,10 +418,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAD2792528D171EB00C74324 /* MovieDetailsViewController.swift in Sources */,
 				AA2979B328D015E1002DA34F /* MoviesViewController.swift in Sources */,
 				AA2979AF28D015E1002DA34F /* AppDelegate.swift in Sources */,
 				AA2979DF28D01666002DA34F /* MovieCell.swift in Sources */,
 				AA2979B128D015E1002DA34F /* SceneDelegate.swift in Sources */,
+				AA5A30BE28D95238000A1D58 /* MovieGridViewController.swift in Sources */,
+				AA5A30C228D9609A000A1D58 /* MovieGridCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
